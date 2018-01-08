@@ -13,4 +13,11 @@ I hope that my codes will help you to solve some problems.
 * [lightoj](http://lightoj.com/login_main.php)
 * [hackerrank](https://www.hackerrank.com/)
 
+## Credits
+
+Inspired by:
+
+* [@datbayev's algo](https://github.com/datbayev/algo)
+* [@zotvent's competitive-programming](https://github.com/zotvent/competitive-programming)
+
 If you find something useful or interesting please feel free to grab, or give me feedback via email: aitemr16@gmail.com
