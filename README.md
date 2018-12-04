@@ -2,6 +2,8 @@
 
 ![Progress](https://img.shields.io/badge/progress-15%20%2F%20887%20-orange.svg)
 ![Language](https://img.shields.io/badge/language-C++-ff69b4.svg)
+[![@aitemr](https://img.shields.io/badge/contact-%40aitemr-brightgreen.svg)](https://t.me/aitemr)
+
 
 This is my personal repository of solutions that I wrote through the time.
 
