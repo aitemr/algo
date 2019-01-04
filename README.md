@@ -30,6 +30,13 @@ I hope that my codes will help you to solve some problems.
 - [The Algorithm Design Canvas](https://www.hiredintech.com/classrooms/algorithm-design/lesson/31)
 - [Byte by Byte (Sam Gavis-Hughson)](https://www.byte-by-byte.com/)
 
+## To stay motivated during preparation:
+
+- [Interview preparation guide bible from Sergey Makagonov](https://www.facebook.com/notes/sergey-makagonov/another-coding-interview-preparation-guide/10210834096793375/)
+- [Guide from Alibek Datbayev](http://datbayev.kz/rabota-v-silikonovoi-doline/)
+- [Guide from Sergey Sema](https://dou.ua/lenta/articles/google-interview/)
+- [Guide from Anuar Serikov](https://medium.com/@anuar.serikov/как-я-попал-на-работу-в-google-678556114822)
+
 ## Credits
 
 Inspired by:
