@@ -59,9 +59,7 @@ class Solution {
         cout << (d[f] == inf ? -1 : d[f]);
     }
     
-    void solution() {
-        dijkstra();
-    }
+    void solution() { }
     
 public:
     
