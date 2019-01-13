@@ -29,6 +29,7 @@ I hope that my codes will help you to solve some problems.
 - [Algorithms, Part I (Princeton)](https://www.coursera.org/learn/algorithms-part1/)
 - [The Algorithm Design Canvas](https://www.hiredintech.com/classrooms/algorithm-design/lesson/31)
 - [Byte by Byte (Sam Gavis-Hughson)](https://www.byte-by-byte.com/)
+- [Олимпиадные задачи по программированию (Фёдор Меньшиков)](https://acmp.ru/asp/do/index.asp?main=course&id_course=5)
 
 ## To stay motivated during preparation:
 
