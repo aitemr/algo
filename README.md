@@ -36,6 +36,7 @@ I hope that my codes will help you to solve some problems.
 - [Guide from Alibek Datbayev](http://datbayev.kz/rabota-v-silikonovoi-doline/)
 - [Guide from Sergey Sema](https://dou.ua/lenta/articles/google-interview/)
 - [Guide from Anuar Serikov](https://medium.com/@anuar.serikov/как-я-попал-на-работу-в-google-678556114822)
+- [Your ultimate guide to interview preparation from Adilet Zhaxybay](http://adilet.org/blog/your-ultimate-guide-to-interview-preparation/)
 
 ## Credits
 
@@ -43,6 +44,8 @@ Inspired by:
 
 - [@datbayev's algo](https://github.com/datbayev/algo)
 - [@zotvent's competitive-programming](https://github.com/zotvent/competitive-programming)
+- [@nurnisi's algorithms-and-data-structures](https://github.com/nurnisi/algorithms-and-data-structures)
+- [@adja's algos](https://github.com/ADJA/algos)
 
 ## Support
 
