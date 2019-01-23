@@ -11,41 +11,32 @@
 // Input: "race a car"
 // Output: false
 
-#include <iostream>
-#include <string>
-#include <locale>
-
-using namespace std;
-
-bool isPalindrome(string s) {
-    string str;
-    for (int i = 0; i < s.length(); i++) {
-        if (isalnum(s[i])) {
-            str += s[i];
-        }   
-    }
-
-    for (auto & c: str) {
-        c = tolower(c);
-    }
-
-    int i = 0;
-    int j = str.length() - 1;
-
-    while (i < j) {
-        if (str[i] != str[j]) {
-        return false;
+class Solution {
+public:
+    bool isPalindrome(string s) {
+       string str;
+        for (int i = 0; i < s.length(); i++) {
+            if (isalnum(s[i])) {
+                str += s[i];
+              }
         }
 
-        i++;
-        j--;
+        for (auto & c: str) {
+          c = tolower(c);
+        }
+
+        int i = 0;
+        int j = str.length() - 1;
+
+        while (i < j) {
+          if (str[i] != str[j]) {
+            return false;
+          }
+
+          i++;
+          j--;
+        }
+
+        return true; 
     }
-
-    return true;
-}
-
-int main() {
-    cout << isPalindrome("sdcasd");
-
-    return 0;
-}
+};
