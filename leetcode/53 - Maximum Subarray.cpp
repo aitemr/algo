@@ -11,6 +11,8 @@
 // If you have figured out the O(n) solution, 
 // try coding another solution using the divide and conquer approach, which is more subtle.
 
+// Youtube: https://www.youtube.com/watch?v=2MmGzdiKR9Y
+
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
