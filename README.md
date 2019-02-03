@@ -31,15 +31,6 @@ I hope that my codes will help you to solve some problems.
 - [Byte by Byte (Sam Gavis-Hughson)](https://www.byte-by-byte.com/)
 - [Олимпиадные задачи по программированию (Фёдор Меньшиков)](https://acmp.ru/asp/do/index.asp?main=course&id_course=5)
 
-## To stay motivated during preparation:
-
-- [Interview preparation guide bible from Sergey Makagonov](https://www.facebook.com/notes/sergey-makagonov/another-coding-interview-preparation-guide/10210834096793375/)
-- [Guide from Alibek Datbayev](http://datbayev.kz/rabota-v-silikonovoi-doline/)
-- [Guide from Sergey Sema](https://dou.ua/lenta/articles/google-interview/)
-- [Guide from Anuar Serikov](https://medium.com/@anuar.serikov/как-я-попал-на-работу-в-google-678556114822)
-- [Your ultimate guide to interview preparation from Adilet Zhaxybay](http://adilet.org/blog/your-ultimate-guide-to-interview-preparation/)
-- [ProgBlog TV](https://www.youtube.com/channel/UC1QrUyRmSoUTPVSbHv7arcA)
-
 ## Credits
 
 Inspired by:
