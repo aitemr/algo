@@ -1,9 +1,14 @@
-# 🧠 Algorithms and Data structures
-
-![Progress](https://img.shields.io/badge/progress-53%20%2F%20982%20-orange.svg)
-![Language](https://img.shields.io/badge/language-C++-ff69b4.svg)
-[![@aitemr](https://img.shields.io/badge/contact-%40aitemr-brightgreen.svg)](https://t.me/aitemr)
-
+<p align="center">
+  <img src=".github/header.png">
+  <h1 align="center">
+    Algorithms and Data structures
+    <br>
+    <a href="https://img.shields.io/badge/progress-53%20%2F%20982%20-orange.svg" ><img alt="progress" src="https://img.shields.io/badge/progress-53%20%2F%20982%20-orange.svg" /></a>
+    <a href="https://img.shields.io/badge/language-C++-ff69b4.svg" ><img alt="language" src="https://img.shields.io/badge/language-C++-ff69b4.svg" /></a>
+    <a href="https://t.me/aitemr" ><img alt="contact" src="https://img.shields.io/badge/contact-%40aitemr-blue.svg" /></a>
+    <a href="./LICENSE.md" ><img alt="license" src="https://img.shields.io/badge/License-MIT-yellow.svg" /></a>
+  </h1>
+</p>
 
 This is my personal repository of solutions that I wrote through the time.
 
@@ -46,4 +51,4 @@ If you find something useful or interesting please feel free to grab, or give me
 
 ## License
 
-[MIT License](./LICENSE) © Islam Temirbek
+[MIT License](./LICENSE.md) © Islam Temirbek
