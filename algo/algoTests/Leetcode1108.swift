@@ -22,29 +22,28 @@
 import XCTest
 
 class Leetcode1108: XCTestCase {
-	
-	// MARK: - Solution
-	
-	private func defangIPaddr(_ address: String) -> String {
-		return address.replacingOccurrences(of: ".", with: "[.]")
-	}
-	
-	// MARK: - Test Cases
-	
-	func testCase1() {
-		checkDefangIPAddress(address: "255.100.50.0", expectedAddress: "255[.]100[.]50[.]0")
-
-	}
-	
-	func testCase2() {
-		checkDefangIPAddress(address: "1.1.1.1", expectedAddress: "1[.]1[.]1[.]1")
-	}
-	
-	private func checkDefangIPAddress(address: String, expectedAddress: String) {
-		// act
-		let result = defangIPaddr(address)
-		
-		// assert
-		XCTAssertEqual(result, expectedAddress)
-	}
+    
+    // MARK: - Solution
+    
+    private func defangIPaddr(_ address: String) -> String {
+        return address.replacingOccurrences(of: ".", with: "[.]")
+    }
+    
+    // MARK: - Test Cases
+    
+    func testCase1() {
+        checkDefangIPAddress(address: "255.100.50.0", expectedAddress: "255[.]100[.]50[.]0")
+    }
+    
+    func testCase2() {
+        checkDefangIPAddress(address: "1.1.1.1", expectedAddress: "1[.]1[.]1[.]1")
+    }
+    
+    private func checkDefangIPAddress(address: String, expectedAddress: String) {
+        // act
+        let result = defangIPaddr(address)
+        
+        // assert
+        XCTAssertEqual(result, expectedAddress)
+    }
 }

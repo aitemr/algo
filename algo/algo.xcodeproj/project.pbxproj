@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ADA61C5E240968A0006AC20C /* Leetcode1295.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA61C5D240968A0006AC20C /* Leetcode1295.swift */; };
 		ADBFEE3C24085EE10008BEEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBFEE3B24085EE10008BEEA /* AppDelegate.swift */; };
 		ADBFEE3E24085EE10008BEEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBFEE3D24085EE10008BEEA /* SceneDelegate.swift */; };
 		ADBFEE4024085EE10008BEEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBFEE3F24085EE10008BEEA /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ADA61C5D240968A0006AC20C /* Leetcode1295.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode1295.swift; sourceTree = "<group>"; };
 		ADBFEE3824085EE10008BEEA /* algo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = algo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBFEE3B24085EE10008BEEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADBFEE3D24085EE10008BEEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 			children = (
 				ADBFEE5424085EE30008BEEA /* Info.plist */,
 				ADBFEE6024085FE70008BEEA /* Leetcode1108.swift */,
+				ADA61C5D240968A0006AC20C /* Leetcode1295.swift */,
 			);
 			path = algoTests;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADBFEE6124085FE70008BEEA /* Leetcode1108.swift in Sources */,
+				ADA61C5E240968A0006AC20C /* Leetcode1295.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
