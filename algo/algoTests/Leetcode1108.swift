@@ -22,7 +22,6 @@
 import XCTest
 
 class Leetcode1108: XCTestCase {
-    
     // MARK: - Solution
     
     private func defangIPaddr(_ address: String) -> String {

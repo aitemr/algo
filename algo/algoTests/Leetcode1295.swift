@@ -31,12 +31,12 @@ class Leetcode1295: XCTestCase {
     // MARK: - Solution
     
     private func findNumbers(_ nums: [Int]) -> Int {
-        var evenNumber = 0;
-        for num in nums {
-            let count = (Array(String(num)).count % 2) == 0 ? 1 : 0;
-            evenNumber += count;
+        var evenNumber = 0
+        for number in nums {
+            let count = (Array(String(number)).count % 2) == 0 ? 1 : 0
+            evenNumber += count
         }
-        return evenNumber;
+        return evenNumber
     }
     
     // MARK: - Test Cases
