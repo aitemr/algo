@@ -32,7 +32,6 @@ class SingleNumber: XCTestCase {
         }
         
         for item in items where item.value == 1 {
-            print(item.key)
             return item.key
         }
         
@@ -42,11 +41,18 @@ class SingleNumber: XCTestCase {
     // MARK: - Test Cases
     
     func testCase1() {
-        _ = singleNumber([2,2,1])
+        checkSingleNumber(input: [2,2,1], expectedOutput: 1)
     }
     
     func testCase2() {
-        _ = singleNumber([4,1,2,1,2])
+        checkSingleNumber(input: [4,1,2,1,2], expectedOutput: 4)
     }
-    
+  
+    private func checkSingleNumber(input: [Int], expectedOutput: Int) {
+        // act
+        let result = singleNumber(input)
+        
+        // assert
+        XCTAssertEqual(result, expectedOutput)
+    }
 }

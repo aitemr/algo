@@ -42,18 +42,18 @@ class Leetcode1295: XCTestCase {
     // MARK: - Test Cases
     
     func testCase1() {
-        findNumbers(input: [12,345,2,6,7896], output: 2)
+        findNumbers(input: [12,345,2,6,7896], expectedOutput: 2)
     }
     
     func testCase2() {
-        findNumbers(input: [555,901,482,1771], output: 1)
+        findNumbers(input: [555,901,482,1771], expectedOutput: 1)
     }
     
-    private func findNumbers(input: [Int], output: Int) {
+    private func findNumbers(input: [Int], expectedOutput: Int) {
         // act
         let result = findNumbers(input)
         
         // assert
-        XCTAssertEqual(result, output)
+        XCTAssertEqual(result, expectedOutput)
     }
 }

@@ -31,18 +31,18 @@ class Leetcode1108: XCTestCase {
     // MARK: - Test Cases
     
     func testCase1() {
-        checkDefangIPAddress(address: "255.100.50.0", expectedAddress: "255[.]100[.]50[.]0")
+        checkDefangIPAddress(input: "255.100.50.0", expectedOutput: "255[.]100[.]50[.]0")
     }
     
     func testCase2() {
-        checkDefangIPAddress(address: "1.1.1.1", expectedAddress: "1[.]1[.]1[.]1")
+        checkDefangIPAddress(input: "1.1.1.1", expectedOutput: "1[.]1[.]1[.]1")
     }
     
-    private func checkDefangIPAddress(address: String, expectedAddress: String) {
+    private func checkDefangIPAddress(input: String, expectedOutput: String) {
         // act
-        let result = defangIPaddr(address)
+        let result = defangIPaddr(input)
         
         // assert
-        XCTAssertEqual(result, expectedAddress)
+        XCTAssertEqual(result, expectedOutput)
     }
 }
