@@ -3,5 +3,5 @@ osx_image: xcode11.3
 
 script:
 - pod install
-- xcodebuild -workspace algo.xcworkspace -scheme algo -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO -enableCodeCoverage YES clean build test
+- xcodebuild -workspace algo.xcworkspace -scheme algo -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11 Pro Max,OS=13.3' ONLY_ACTIVE_ARCH=NO -enableCodeCoverage YES clean build test
 - xcodebuild -workspace algo.xcworkspace -scheme algo -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11 Pro Max,OS=13.3' test
