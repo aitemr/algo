@@ -3,10 +3,10 @@
   <h1 align="center">
     Algorithms and Data structures
     <br>
-    <a href="https://img.shields.io/badge/progress-53%20%2F%20982%20-orange.svg" ><img alt="progress" src="https://img.shields.io/badge/progress-53%20%2F%20982%20-orange.svg" /></a>
-    <a href="https://img.shields.io/badge/language-C++-ff69b4.svg" ><img alt="language" src="https://img.shields.io/badge/language-C++-ff69b4.svg" /></a>
+    <a href="https://img.shields.io/badge/language-C++-ff69b4.svg" ><img alt="language" src="https://img.shields.io/badge/language-Swift-ff69b4.svg" /></a>
     <a href="https://t.me/aitemr" ><img alt="contact" src="https://img.shields.io/badge/contact-%40aitemr-blue.svg" /></a>
     <a href="./LICENSE.md" ><img alt="license" src="https://img.shields.io/badge/License-MIT-yellow.svg" /></a>
+    <a href="https://travis-ci.org/aitemr/algo.svg?branch=master" ><img alt="build" src="https://travis-ci.org/aitemr/algo.svg?branch=master" /></a>
   </h1>
 </p>
 
