@@ -17,6 +17,7 @@
 		ADBFEE4524085EE30008BEEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADBFEE4424085EE30008BEEA /* Assets.xcassets */; };
 		ADBFEE4824085EE30008BEEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBFEE4624085EE30008BEEA /* LaunchScreen.storyboard */; };
 		ADBFEE6124085FE70008BEEA /* Leetcode1108.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBFEE6024085FE70008BEEA /* Leetcode1108.swift */; };
+		ADC2DB14243A7BCC004398A2 /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC2DB13243A7BCC004398A2 /* SingleNumber.swift */; };
 		D2B1150812D13351FE4951C9 /* Pods_algo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718280E4A4002B735E6D0E8E /* Pods_algo.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		ADBFEE4E24085EE30008BEEA /* algoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = algoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBFEE5424085EE30008BEEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADBFEE6024085FE70008BEEA /* Leetcode1108.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode1108.swift; sourceTree = "<group>"; };
+		ADC2DB13243A7BCC004398A2 /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
 		DB824AADBB53F2166D14E9A3 /* Pods-algo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-algo.debug.xcconfig"; path = "Target Support Files/Pods-algo/Pods-algo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +97,7 @@
 		AD5949B02433A925001A9CA5 /* 30-Day LeetCoding Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				ADC2DB12243A7A74004398A2 /* Week 1 - April 1st–April 7th */,
 			);
 			path = "30-Day LeetCoding Challenge";
 			sourceTree = "<group>";
@@ -151,6 +154,14 @@
 				ADBFEE4924085EE30008BEEA /* Info.plist */,
 			);
 			name = Others;
+			sourceTree = "<group>";
+		};
+		ADC2DB12243A7A74004398A2 /* Week 1 - April 1st–April 7th */ = {
+			isa = PBXGroup;
+			children = (
+				ADC2DB13243A7BCC004398A2 /* SingleNumber.swift */,
+			);
+			path = "Week 1 - April 1st–April 7th";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADC2DB14243A7BCC004398A2 /* SingleNumber.swift in Sources */,
 				ADBFEE6124085FE70008BEEA /* Leetcode1108.swift in Sources */,
 				ADA61C5E240968A0006AC20C /* Leetcode1295.swift in Sources */,
 			);
