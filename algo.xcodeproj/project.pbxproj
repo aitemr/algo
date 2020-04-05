@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		154BD22DD958A3BA4387274A /* Pods_algoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992EAAF951365FBE6A58EB5F /* Pods_algoTests.framework */; };
-		AD5949B22433A94A001A9CA5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD5949B12433A94A001A9CA5 /* README.md */; };
 		ADA61C5E240968A0006AC20C /* Leetcode1295.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA61C5D240968A0006AC20C /* Leetcode1295.swift */; };
 		ADBFEE3C24085EE10008BEEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBFEE3B24085EE10008BEEA /* AppDelegate.swift */; };
 		ADBFEE3E24085EE10008BEEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBFEE3D24085EE10008BEEA /* SceneDelegate.swift */; };
@@ -18,6 +17,7 @@
 		ADBFEE4824085EE30008BEEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBFEE4624085EE30008BEEA /* LaunchScreen.storyboard */; };
 		ADBFEE6124085FE70008BEEA /* Leetcode1108.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBFEE6024085FE70008BEEA /* Leetcode1108.swift */; };
 		ADC2DB14243A7BCC004398A2 /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC2DB13243A7BCC004398A2 /* SingleNumber.swift */; };
+		ADE199E1243A8FCD00325B43 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ADE199E0243A8FCD00325B43 /* README.md */; };
 		D2B1150812D13351FE4951C9 /* Pods_algo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718280E4A4002B735E6D0E8E /* Pods_algo.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +37,6 @@
 		718280E4A4002B735E6D0E8E /* Pods_algo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_algo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		992EAAF951365FBE6A58EB5F /* Pods_algoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_algoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD2B41BFFEBC9F663AF086D /* Pods-algo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-algo.release.xcconfig"; path = "Target Support Files/Pods-algo/Pods-algo.release.xcconfig"; sourceTree = "<group>"; };
-		AD5949B12433A94A001A9CA5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		ADA61C5D240968A0006AC20C /* Leetcode1295.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode1295.swift; sourceTree = "<group>"; };
 		ADBFEE3824085EE10008BEEA /* algo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = algo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBFEE3B24085EE10008BEEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		ADBFEE5424085EE30008BEEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADBFEE6024085FE70008BEEA /* Leetcode1108.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode1108.swift; sourceTree = "<group>"; };
 		ADC2DB13243A7BCC004398A2 /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
+		ADE199E0243A8FCD00325B43 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DB824AADBB53F2166D14E9A3 /* Pods-algo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-algo.debug.xcconfig"; path = "Target Support Files/Pods-algo/Pods-algo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,7 +105,7 @@
 		ADBFEE2F24085EE10008BEEA = {
 			isa = PBXGroup;
 			children = (
-				AD5949B12433A94A001A9CA5 /* README.md */,
+				ADE199E0243A8FCD00325B43 /* README.md */,
 				ADBFEE3A24085EE10008BEEA /* algo */,
 				ADBFEE5124085EE30008BEEA /* algoTests */,
 				ADBFEE3924085EE10008BEEA /* Products */,
@@ -251,7 +251,7 @@
 			files = (
 				ADBFEE4824085EE30008BEEA /* LaunchScreen.storyboard in Resources */,
 				ADBFEE4524085EE30008BEEA /* Assets.xcassets in Resources */,
-				AD5949B22433A94A001A9CA5 /* README.md in Resources */,
+				ADE199E1243A8FCD00325B43 /* README.md in Resources */,
 				ADBFEE4324085EE10008BEEA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
