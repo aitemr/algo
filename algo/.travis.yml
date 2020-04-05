@@ -1,5 +1,6 @@
 language: swift
 osx_image: xcode11.3  
+podfile: algo/
 
 script:
 - pod install
