@@ -1,7 +1,0 @@
-language: swift
-osx_image: xcode11.3  
-
-script:
-- pod install
-- xcodebuild -workspace algo.xcworkspace -scheme algo -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO -enableCodeCoverage YES clean build test
-- xcodebuild test -workspace algo.xcworkspace -scheme algoTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
